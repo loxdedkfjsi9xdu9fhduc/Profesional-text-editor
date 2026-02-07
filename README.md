@@ -18,13 +18,6 @@
 - Python 3.7+
 - Tkinter (обычно идёт с Python)
 
-## Запуск
-
-```bash
-cd pyeditor
-python editor.py
-```
-
 ## Горячие клавиши
 
 | Действие | Сочетание |
@@ -39,15 +32,7 @@ python editor.py
 | Копировать | Ctrl+C |
 | Вставить | Ctrl+V |
 
-## Структура проекта
-
-```
-pyeditor/
-├── editor.py      # Основное приложение
-├── requirements.txt
-└── README.md
-```
-
 ## Лицензия
 
 MIT
+
