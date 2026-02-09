@@ -1,107 +1,292 @@
-## PyEditor - Modern, Full-Featured Python Code Editor with Dark Theme and All Essential Features for Productive Development
-**✨ Features** 
-## 🎨 Professional Interface
-4 Selectable Themes: Dark, Light, OLED, Matrix
+###### PyEditor Ultimate - A powerful and compact code editor with AI assistance and multilingual support.
 
-Line numbers with dynamic updating
+## ✨ Key Features
+**💻 Code Editing** 
+Multi-language support (Python, JavaScript, HTML, CSS, and more)
 
-Tabs for working with multiple files
+Tab-based multi-file editing
 
-Status bar with cursor position information
+Line numbering
 
-Toolbar with quick access
+Auto-save settings
 
-## 💻 Python Syntax Highlighting
-Keywords, functions, classes
+Find and replace functionality
 
-Strings, comments, numbers
+**🤖 AI Assistant**
+Intelligent code generation from templates
 
-Built-in Python functions
+Support for Python, JavaScript, and HTML
 
-Decorators
+Quick code insertion
 
-## 🔧 Development Tools
-Python code execution (F5)
+12+ ready-to-use templates per language
 
-Find and replace text
+**🚀 Code Execution**
+Built-in Python code execution
 
-Auto-indentation on Enter
+JavaScript execution via Node.js
 
-Auto-completion of brackets and quotes
+HTML preview in browser
 
-Current line highlighting
+Real-time output display
 
-Keyboard shortcuts for all operations
+Error handling and debugging
 
-## 📁 File Management
-Open/save files
+**🎨 Customization**
+Multiple themes: Dark, Light, OLED, Blue, Green
 
-Multiple tabs
+Adjustable font sizes
 
-Change confirmation before closing
+Multi-language interface (English, Ukrainian)
 
-Close tabs with middle mouse button
+Customizable layout
 
-## 🎮 Usage
-**Keyboard Shortcuts
-Shortcut	Action**
-<table> <tr> <th width="40%"><strong>Key Combination</strong></th> <th width="60%"><strong>Action</strong></th> </tr> <tr> <td><code>Ctrl + N</code></td> <td>New tab</td> </tr> <tr> <td><code>Ctrl + O</code></td> <td>Open file</td> </tr> <tr> <td><code>Ctrl + S</code></td> <td>Save file</td> </tr> <tr> <td><code>Ctrl + Shift + S</code></td> <td>Save as</td> </tr> <tr> <td><code>Ctrl + W</code></td> <td>Close tab</td> </tr> <tr> <td><code>Ctrl + Z</code></td> <td>Undo</td> </tr> <tr> <td><code>Ctrl + Y</code></td> <td>Redo</td> </tr> <tr> <td><code>Ctrl + F</code></td> <td>Find</td> </tr> <tr> <td><code>Ctrl + H</code></td> <td>Replace</td> </tr> <tr> <td><code>Ctrl + A</code></td> <td>Select all</td> </tr> <tr> <td><code>F5</code></td> <td>Run code</td> </tr> </table>
-Tab	Insert 4 spaces
-Shift+Tab	Remove indentation
-Running Python Code
-Write or open Python code**
+**🔧 Developer Tools**
+Syntax checking (not stable)
 
-**Press F5 or click the "Run" button on the toolbar**
+Code formatting
 
-Execution results will appear in a new window
+Document statistics
 
-## 🎨 Themes
-**PyEditor supports 4 professional themes:**
+Tab management
 
-🌙 Dark Theme (default) - VS Code style
+Status bar with line/column info
 
-☀️ Light Theme - classic light theme
+🚀 Quick Start Guide
+Launch PyEditor 
 
-⚫ OLED Theme - true black for OLED screens
+Create a new file (Ctrl+N or 📄 button)
 
-💚 Matrix Theme - green retro style
+Write your code in Python, JavaScript, or HTML
 
-You can change themes via the View menu or the dropdown list on the toolbar.
+Select language from the toolbar dropdown
 
-## 📝 Syntax Highlighting
-**The editor automatically highlights:**
+Run your code (F5 or ▶️ button)
 
-Python keywords: def, class, if, for, etc.
+View results in the output window
 
-Built-in functions: print(), len(), range(), etc.
+**🎮 Keyboard Shortcuts**
+<table> <thead> <tr> <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Category</th> <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Shortcut</th> <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Action</th> <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Description</th> </tr> </thead> <tbody> <tr> <td rowspan="4" style="background-color: #f0f8ff; font-weight: bold; padding: 10px;">📁 File</td> <td style="background-color: #e3f2fd; padding: 8px;"><code>Ctrl+N</code></td> <td style="padding: 8px;">New File</td> <td style="padding: 8px;">Create new file</td> </tr> <tr> <td style="background-color: #e3f2fd; padding: 8px;"><code>Ctrl+O</code></td> <td style="padding: 8px;">Open File</td> <td style="padding: 8px;">Open existing file</td> </tr> <tr> <td style="background-color: #e3f2fd; padding: 8px;"><code>Ctrl+S</code></td> <td style="padding: 8px;">Save</td> <td style="padding: 8px;">Save current file</td> </tr> <tr> <td style="background-color: #e3f2fd; padding: 8px;"><code>Ctrl+Shift+S</code></td> <td style="padding: 8px;">Save As</td> <td style="padding: 8px;">Save with new name</td> </tr>
+text
+<tr>
+  <td rowspan="4" style="background-color: #f0fff0; font-weight: bold; padding: 10px;">✏️ Edit</td>
+  <td style="background-color: #e8f5e9; padding: 8px;"><code>Ctrl+Z</code></td>
+  <td style="padding: 8px;">Undo</td>
+  <td style="padding: 8px;">Undo last action</td>
+</tr>
+<tr>
+  <td style="background-color: #e8f5e9; padding: 8px;"><code>Ctrl+Y</code></td>
+  <td style="padding: 8px;">Redo</td>
+  <td style="padding: 8px;">Redo last action</td>
+</tr>
+<tr>
+  <td style="background-color: #e8f5e9; padding: 8px;"><code>Ctrl+C</code></td>
+  <td style="padding: 8px;">Copy</td>
+  <td style="padding: 8px;">Copy selected text</td>
+</tr>
+<tr>
+  <td style="background-color: #e8f5e9; padding: 8px;"><code>Ctrl+V</code></td>
+  <td style="padding: 8px;">Paste</td>
+  <td style="padding: 8px;">Paste from clipboard</td>
+</tr>
 
-Strings and comments
+<tr>
+  <td rowspan="3" style="background-color: #fff0f5; font-weight: bold; padding: 10px;">🔍 Search</td>
+  <td style="background-color: #fce4ec; padding: 8px;"><code>Ctrl+F</code></td>
+  <td style="padding: 8px;">Find</td>
+  <td style="padding: 8px;">Search for text</td>
+</tr>
+<tr>
+  <td style="background-color: #fce4ec; padding: 8px;"><code>Ctrl+H</code></td>
+  <td style="padding: 8px;">Replace</td>
+  <td style="padding: 8px;">Find and replace</td>
+</tr>
+<tr>
+  <td style="background-color: #fce4ec; padding: 8px;"><code>Ctrl+G</code></td>
+  <td style="padding: 8px;">Go to Line</td>
+  <td style="padding: 8px;">Jump to line number</td>
+</tr>
 
-Numbers and decorators
+<tr>
+  <td rowspan="3" style="background-color: #f5f0ff; font-weight: bold; padding: 10px;">🚀 Run</td>
+  <td style="background-color: #f3e5f5; padding: 8px;"><code>F5</code></td>
+  <td style="padding: 8px;">Run Code</td>
+  <td style="padding: 8px;">Execute current code</td>
+</tr>
+<tr>
+  <td style="background-color: #f3e5f5; padding: 8px;"><code>F7</code></td>
+  <td style="padding: 8px;">Check Syntax</td>
+  <td style="padding: 8px;">Validate code syntax</td>
+</tr>
+<tr>
+  <td style="background-color: #f3e5f5; padding: 8px;"><code>Ctrl+Shift+F</code></td>
+  <td style="padding: 8px;">Format Code</td>
+  <td style="padding: 8px;">Auto-format code</td>
+</tr>
 
-Function and class names
+<tr>
+  <td rowspan="3" style="background-color: #fff8e1; font-weight: bold; padding: 10px;">🤖 AI</td>
+  <td style="background-color: #fffde7; padding: 8px;"><code>F1</code></td>
+  <td style="padding: 8px;">AI Assistant</td>
+  <td style="padding: 8px;">Open AI code generator</td>
+</tr>
+<tr>
+  <td style="background-color: #fffde7; padding: 8px;"><code>Ctrl+Space</code></td>
+  <td style="padding: 8px;">Auto-complete</td>
+  <td style="padding: 8px;">Show code suggestions</td>
+</tr>
+<tr>
+  <td style="background-color: #fffde7; padding: 8px;"><code>Ctrl+I</code></td>
+  <td style="padding: 8px;">Quick Fix</td>
+  <td style="padding: 8px;">Show quick fixes</td>
+</tr>
 
-## 🤝 Contributing
-Contributions are welcome! Please:
+<tr>
+  <td rowspan="4" style="background-color: #e8f5ff; font-weight: bold; padding: 10px;">📊 View</td>
+  <td style="background-color: #e1f5fe; padding: 8px;"><code>Ctrl++</code></td>
+  <td style="padding: 8px;">Zoom In</td>
+  <td style="padding: 8px;">Increase font size</td>
+</tr>
+<tr>
+  <td style="background-color: #e1f5fe; padding: 8px;"><code>Ctrl+-</code></td>
+  <td style="padding: 8px;">Zoom Out</td>
+  <td style="padding: 8px;">Decrease font size</td>
+</tr>
+<tr>
+  <td style="background-color: #e1f5fe; padding: 8px;"><code>Ctrl+0</code></td>
+  <td style="padding: 8px;">Reset Zoom</td>
+  <td style="padding: 8px;">Default font size</td>
+</tr>
+<tr>
+  <td style="background-color: #e1f5fe; padding: 8px;"><code>Ctrl+T</code></td>
+  <td style="padding: 8px;">Change Theme</td>
+  <td style="padding: 8px;">Switch theme</td>
+</tr>
 
-Fork the repository
+<tr>
+  <td rowspan="3" style="background-color: #f0f0f0; font-weight: bold; padding: 10px;">🖥️ Tabs</td>
+  <td style="background-color: #eeeeee; padding: 8px;"><code>Ctrl+Tab</code></td>
+  <td style="padding: 8px;">Next Tab</td>
+  <td style="padding: 8px;">Switch to next tab</td>
+</tr>
+<tr>
+  <td style="background-color: #eeeeee; padding: 8px;"><code>Ctrl+Shift+Tab</code></td>
+  <td style="padding: 8px;">Previous Tab</td>
+  <td style="padding: 8px;">Switch to previous tab</td>
+</tr>
+<tr>
+  <td style="background-color: #eeeeee; padding: 8px;"><code>Ctrl+W</code></td>
+  <td style="padding: 8px;">Close Tab</td>
+  <td style="padding: 8px;">Close current tab</td>
+</tr>
+</tbody> </table>
+**🤖 AI Assistant Usage**
+The AI Assistant helps generate code from templates:
 
-Create a feature branch (git checkout -b feature/amazing-feature)
+Click the 🤖 button in the sidebar
 
-Commit your changes (git commit -m 'Add amazing feature')
+Select programming language (Python, JavaScript, HTML)
 
-Push to the branch (git push origin feature/amazing-feature)
+Choose a template from the list
 
-Open a Pull Request
+Click "Generate" to insert code
 
-## 📄 License
-**This project is licensed under the MIT License - see the LICENSE file.**
+Available Templates:
+
+Python: Functions, classes, parsers, API clients, web scrapers
+
+JavaScript: UI components, forms, timers, calculators
+
+HTML: Page templates, layouts, forms, cards
+
+**Change Theme**
+Click 🎨 button or press Ctrl+T
+
+Cycle through available themes
+
+Changes apply immediately
+
+**Change Language**
+Click 🌐 dropdown in sidebar
+
+Choose between English and Ukrainian
+
+Interface updates instantly
+
+**🐛 Troubleshooting**
+Common Issues
+"Node.js not found" error
+
+Install Node.js from https://nodejs.org
+
+Add to PATH during installation
+
+Python execution issues
+
+Ensure Python is in system PATH
+
+Check Python version (3.7+ required)
+
+Missing dependencies
+
+Run: pip install -r requirements.txt
+
+Permission errors (Windows)
+
+Run command prompt as administrator
+
+Or move project to local drive (not OneDrive)
+
+**Reporting Issues**
+If you encounter problems:
+
+Check if you're using the latest version
+
+Verify Python and dependencies are installed
+
+Create an issue on GitHub with:
+
+Error message
+
+Steps to reproduce
+
+Screenshots if possible
+
+## **💡 Tips & Tricks**
+Productivity Tips
+Use Ctrl+Tab to quickly switch between tabs
+
+Enable auto-save in settings for important projects
+
+Use the AI Assistant for boilerplate code
+
+Customize themes for better visibility
+
+Code Organization
+Keep related files in the same tab group
+
+Use the statistics feature to analyze code
+
+Format code regularly for better readability
+
+📄 License
+MIT License - See LICENSE file for details.
 
 👨‍💻 Author
-DenisVJR - https://github.com/DenisVJR1
+DenisVJR1 - Creator and maintainer
 
-⭐ Please star this repository if you like the project!
+🌟 Support
+If you find PyEditor useful:
+
+⭐ Star the repository on GitHub
+
+🐛 Report bugs and issues
+
+💡 Suggest new features
+
+🔄 Share with other developers
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/b46ba537-5d3b-4a1a-88f7-f85410cd69a0" />
+
 
 
 
